@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="productID" format="java">
+      <types:shape format="raml"><![CDATA[#%RAML 1.0 DataType
+type: number]]></types:shape>
+    </types:type>
+  </types:catalog>
+  <types:enrichment select="#298ba159-d97e-4f0d-9290-10ae3c1320dd">
+    <types:processor-declaration>
+      <types:output-event>
+        <types:message>
+          <types:payload type="productID"/>
+        </types:message>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#0a3445e6-7ef9-4272-a381-caa9169588b5">
+    <types:processor-declaration>
+      <types:output-event>
+        <types:variables>
+          <types:variable name="productID" type="productID"/>
+        </types:variables>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#9930a51e-d06f-4963-a7cc-e2476a0e0b54">
+    <types:processor-declaration>
+      <types:output-event>
+        <types:variables>
+          <types:variable name="productID" type="productID"/>
+        </types:variables>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#61969ed4-ab14-4882-8ebb-c0796b83687b">
+    <types:processor-declaration>
+      <types:output-event>
+        <types:variables>
+          <types:variable name="productID" type="productID"/>
+        </types:variables>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#0eed24f7-4523-42af-9dd3-3d4653c082f0">
+    <types:processor-declaration>
+      <types:output-event>
+        <types:variables>
+          <types:variable name="productID" type="productID"/>
+        </types:variables>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#55f0909d-6d84-4a38-865a-fa2ab60bf898">
+    <types:processor-declaration>
+      <types:output-event>
+        <types:variables>
+          <types:variable name="productId" type="productID"/>
+        </types:variables>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#597e9213-27f7-4d66-927b-208d78cca1b2">
+    <types:processor-declaration>
+      <types:output-event>
+        <types:variables>
+          <types:variable name="productId" type="productID"/>
+        </types:variables>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+</types:mule>
