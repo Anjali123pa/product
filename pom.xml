@@ -56,7 +56,9 @@
         </cloudHubDeployment>
     </configuration>
 </plugin>
+
 		</plugins>
+		
 	</build>
 
 	<dependencies>
