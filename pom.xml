@@ -7,7 +7,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
-	<name>poc1_git_impl</name>
+	<name>poc1GitImpl</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -49,7 +49,7 @@
             <muleVersion>4.3.0</muleVersion>
             <username>PatelAnjaliCg</username>
             <password>Anjali@123</password>
-            <applicationName>poc1_git_impl</applicationName>
+            <applicationName>poc1GitImpl</applicationName>
             <environment>Sandbox</environment>
             <workerType>MICRO</workerType>
             <objectStoreV2>true</objectStoreV2>
